@@ -1,0 +1,54 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: yellow;
+    color: black;
+}
+
+main {
+    height: 400px;
+    width: 360px;
+    margin: 40px auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main-hidden {
+    display: none;
+}
+
+.yes-hidden {
+    display: none;
+}
+
+.btn-reverse{
+    flex-direction: row-reverse;
+}
+
+.kissy {
+    width: 150px;
+    display: block;
+    margin: 30px auto;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+button {
+    margin-top: 30px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: solid 1px red;
+    background-color: pink;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.yes-gif{
+    width: 500px;
+}
