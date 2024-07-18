@@ -14,6 +14,6 @@ yesBtn.addEventListener('click', () => {
     yesMessage.classList.toggle('yes-hidden')
 })
 
-noBtn.addEventListener(('mouseover' || 'touchstart'), () => {
+noBtn.addEventListener('click', () => {
     btnContainer.classList.toggle('btn-reverse')
 })
